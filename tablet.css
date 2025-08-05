@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .menunav-brand {
+    display: none;
+  }
+  #job {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 1500px;
+  }
+
+  .job-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .job-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .web,
+  .java,
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}

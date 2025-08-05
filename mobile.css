@@ -1,0 +1,29 @@
+@media (max-width: 500px) {
+  nav {
+    display: block;
+    padding: 20px;
+  }
+  .menu {
+    padding: 10px;
+  }
+  #information {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #job {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 2200px;
+  }
+  .chung-chi {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .web {
+    border-right: 0px;
+  }
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
